@@ -457,6 +457,10 @@ textarea:focus {
 	width: 1500px;
 }
 
+.project--1 {
+	height: 600px;
+}
+
 /* .project:hover {
 	scale: 1.02;
 	border: 1px solid rgba(255, 255, 255, 0.18);
@@ -489,6 +493,20 @@ textarea:focus {
 
 .image2 {
 	box-shadow: 0px 0px 100px 0px rgba(255, 251, 255, 0.15);
+}
+
+.roguelite-image-1 {
+	width: 450px;
+	height: auto;
+	position: relative;
+	transform: translate(100px, 80px);
+}
+
+.roguelite-video-1 {
+	/* width: 450px;
+	height: auto; */
+	transform: translate(0px, -120px);
+	position: relative;
 }
 
 .cryptcellar-image-1 {
