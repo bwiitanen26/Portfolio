@@ -353,7 +353,6 @@ textarea:focus {
 .education-side {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	gap: 10px;
 }
@@ -595,4 +594,127 @@ footer {
 
 #copyright-text {
 	color: #fffbff;
+}
+
+@media only screen and (max-width: 768px) {
+	h3 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.about {
+		position: relative;
+		height: calc(100vh);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 5%;
+		overflow: hidden;
+		border-bottom: 2px solid #afacaf;
+	}
+
+	#ring-container {
+		position: relative;
+		height: 800px;
+		width: 50%;
+	}
+
+	/* .sm-buttons {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		justify-content: space-around;
+		align-items: center;
+		position: absolute;
+		top: 39%;
+		right: 2%;
+	} */
+
+	.sm-buttons {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* .sm-button {
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		text-decoration: none;
+		line-height: 84px;
+		background-color: #04030f;
+		color: #fffbff;
+		border-radius: 8px;
+		transition-duration: 0.3s;
+	} */
+
+	.sm-button {
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		text-decoration: none;
+		line-height: 84px;
+		background-color: #04030f;
+		color: #fffbff;
+		border-radius: 8px;
+		transition-duration: 0.3s;
+	}
+
+	#experience-header {
+		height: 80px;
+	}
+
+	#experience {
+		position: relative;
+		display: block;
+		justify-content: center;
+		align-items: center;
+		background-color: #fffbff;
+		padding-bottom: 80px;
+	}
+
+	.education-side {
+		margin-bottom: 15px;
+	}
+
+	.csulb-image {
+		width: 70%;
+		height: auto;
+	}
+
+	.experience-divider {
+		width: 80%;
+		height: 1px;
+		margin: auto;
+	}
+
+	.skills-list {
+		display: grid;
+		grid-template-columns: 30% 30%;
+		grid-template-rows: none;
+		gap: 3%;
+	}
+
+	.skill-image {
+		width: 100%;
+		height: auto;
+	}
+
+	form {
+		width: 80%;
+		height: auto;
+		text-align: center;
+	}
+
+	#contact-text {
+		text-align: center;
+	}
+
+	input {
+		width: 90%;
+	}
+
+	textarea {
+		width: 90%;
+		height: 200px;
+	}
 }
